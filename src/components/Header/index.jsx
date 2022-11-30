@@ -1,9 +1,10 @@
 import Logo from "../Logo"
 import SearchBar from "../SearchBar"
+import styles from './Header.module.scss'
 
 const Header = () => {
     return(
-        <header>
+        <header className={styles.cabecalho}>
             <Logo/>
             <SearchBar/>
         </header>
